@@ -8,6 +8,11 @@ h4 {
 	font-family: arial;
 }
 
+img {
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+}
+
 p {
 	margin-left: 50px;
 	margin-top: 50px;
