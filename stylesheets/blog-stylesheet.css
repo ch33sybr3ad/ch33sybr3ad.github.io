@@ -1,4 +1,9 @@
-h1 {
-    text-align: center;
-    color: red;
-} 
+h2 {
+    color: #0000CC;
+    font-familt: arial;
+}
+
+h4 { 
+	color:#666699;
+	font-family: arial;
+}
