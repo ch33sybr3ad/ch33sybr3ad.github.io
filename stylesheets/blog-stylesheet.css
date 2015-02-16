@@ -14,3 +14,7 @@ html {
   margin-right: 8em;
   margin-bottom: 5em;
 }
+
+p {
+	font-size: 20px;
+}
