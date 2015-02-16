@@ -1,19 +1,16 @@
-h2 {
-    color: #0000CC;
-    font-familt: arial;
+html { 
+  background-color: #DFDFDF;
 }
 
-h4 { 
-	color:#666699;
-	font-family: arial;
+#header {
+  text-align: center;
+  font-family: arial;
+  margin-top: 3em;
 }
 
-img {
-	border: #0000CC solid 4px;
-}
-
-p {
-	margin-left: 40px;
-	margin-top: 10px;
-	
+#body { 
+  margin-top: 5em;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: 5em;
 }
