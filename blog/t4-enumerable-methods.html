@@ -26,9 +26,10 @@
       <ul>
         <li> Kernel#to_enum </li> <li> Kernel#enum_for </li> <li> ::new </li>
       </ul>
-      <p>
-      Enumerables, by itself, contribute a lot to Ruby's ease-of-use and flexibility.
-      </p>
+      <p>Enumerables, by itself, contribute a lot to Ruby's ease-of-use and flexibility. They are possible in Ruby due to the notion of "mixins." If you want to write code once and share it between a bunch of unrelated classes, you can put it in modules to be "mixed in" with your classes. </p>
+      <p> One useful Ruby Enumerable method is the Enumerable#map. Using #map allows you to return a new array with the results of running <i>block</i> once for every element in <i> enum </i>. If no block is given, an enumerator is returned instead. </p>
+      <img src="../imgs/Enumerator.png" alt="Enumerable Example">
+      <p> This is extremely helpful because it allows you to manipulate a group of elements in Ruby in a clearly defined way. 
     </div>
   </section>
 </main>
