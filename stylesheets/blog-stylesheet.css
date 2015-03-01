@@ -24,3 +24,22 @@ img {
 p {
 	font-size: 20px;
 }
+
+nav a { 
+  position: relative;
+  list-style: none;
+  font-family: Tahoma;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+  height: 2em;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  background-color: black;
+  height: 6em;
+}
