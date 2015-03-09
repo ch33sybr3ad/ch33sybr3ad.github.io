@@ -22,9 +22,16 @@
 
   <section>
     <div id="body">
-    <p>
-      
-    </p>
+    <p><strong>What is a Ruby Class?</strong></p>
+    <p>A class is the blueprints from which individual objects are created. When a new class is created, an object of type class is initialized and assigned to a global constant. The best way to show how this works would be modeling a real world object using a ruby class. Below is the Die class that we had to create for this week's challenges: </p>
+    <p><strong>Modeling Dice Rolls</strong></p>
+    <img src="../imgs/DieClass.png" alt="Die Class Example" width="700">
+    <p>The first method in every class will be an initialize method, which is unique in Ruby. When you create a new Die object, Ruby creates an uninitialized object and then calls that object's initialize method, passing in any parameters that were passed to new. For our Die class, the only parameter is the number of sides that the dice has.</p>
+    <p> You might also have noticed the usage of the @ sign inside each method. Using @ will create an instance variable, which will record the data of a specific instance of your class. You can have form several <i>instances</i> of class Die, such as a 6 sided, 10 sided or even 20 sided die. </p>
+    <p> In this class, we created two class methods sides and roll. The first method will tell you how many sides the dice has and the second method will "roll the dice" and give you a random output. You can call a method by creating a new object as shown below:</p>
+    <p>a = Die.new(6)</p>
+    <p>a.roll</p>
+    <p>Doing so, will create a new 6 sided die and tell it to roll the dice and output a random number from 1-6!</p>
     </div>
   </section>
 </main>
