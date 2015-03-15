@@ -22,7 +22,7 @@
 
   <section>
     <div id="body">
-      <p> What is Variable Scope? Scope defines where in a program a variable is accessible. Ruby has 4 types of variable scope and one constant type variable: </p>
+      <p> <strong>What is Variable Scope?</strong> </br> Scope defines where in a program a variable is accessible. Ruby has 4 types of variable scope and one constant type variable: </p>
       <ul> 
         <li> Global Variable - $</li>
         <li> Class Variable - @@</li>
@@ -30,8 +30,25 @@
         <li> Local Variable - [a-z] or _</li>
         <li> Constant - [A-Z]</li>
       </ul>
-      <p> You can use the method .defined? to return the scope of the variable referenced. But it's alot easier to tell the scope of the variable for looking at the name.</p>
-      <p><strong>Global Variables</strong><br/> asdsad </p>
+      <p> You can use the method .defined? to return the scope of the variable referenced. But it's alot easier to tell the scope of the variable for looking at the name.</p> 
+
+      <p><strong>Global Variables</strong><br/> 
+        Global Variables have a global scope and can be accessed from anywhere in the Ruby program, regardless of where they are declared. You can call them using $. For example, <code>$global_variable = "I am a global variable"</code>. </br></br>
+        As useful as they seem, using global variables is strongly discouraged. This is because they are not only visible anywhere in the code for a program, but they can also be changed anywhere in the application; This makes tracking bugs difficult.</p>
+
+      <p><strong>Class Variable</strong><br/> 
+        Class Variables are variables that are shared amongst all instances of a class, meaning only one variable exists for all objects initiated from this class. You can call them using @@. For example, <code>@@class_variable = "I am a class variable"</code>. </br></br>
+        You can think of class variables as a global variable within the context of a single class. Class variables must be initialized at the time of creation.</p>
+
+      <p><strong>Instance Variable</strong><br/> 
+        Instance Variables are very similar to Class Variabales except that their values are local to specific instances of an object. You can call them using @. For example, <code>@instance_variable = "I am an instance variable"</code>. </p>
+
+      <p><strong>Local Variable</strong><br/> 
+        Local Variables are local to the code construct where they are declared. A local variable that is declared in a method or within a loop cannot be accessed outside of that method or loop. You can call them using the [a-z] or _. For example, <code>local_variable = "I am a local variable"</code> or you could use <code>_LocalVariable = "I am a local variable"</code></p>
+
+      <p><strong>Constant</strong><br/> 
+        Ruby Constants are constant and once assigned should not be changed. You can call them using the [A-Z]. For example, <code>CONSTANT_VARIABLE = "I am a constant variable"</code>. </br></br>
+        Ruby differs from other programming languages, because it allows you to change constants once declared (but with a warning message). Most other programming languages will not allow a constant variable to be changed. The scope of a constant depends on where it is declared. A constant declared within a class or module is avaiable anywhere within the context of that class or module. A constant declared outside of a class or module are assigned global scope.</p>
     </div>
   </section>
 </main>
