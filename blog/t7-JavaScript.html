@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title>Jason's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css" />
+</head>
+
+<main>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About Me</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div id="header">
+    <h1>DBC Week 7 Technical Blog Post</h1>
+    <h2>Ruby Hashes vs. JavaScript Objects</h2>
+    <h4><em>March 21, 2015</em></h4>
+  </div>
+
+  <section>
+    <div id="body">
+      <p> This week we've been learning about JavaScript and have been asked to compare this language with Ruby. There are several fundamental differences between these two languages. Ruby is a much higher level and easier to use language compared to JavaScript which much more versatile and useful in communicating with more applications. One really frustating thing about JavaScript is its ability, or lack of, to tell you your errors in your code. It was frustaing to receive errors in your terminal with a misplaced a semi-colon or a curly bracket. What I wanted to examine today was the differenced between Ruby Hashes and JavaScript Objects. </p>
+      <p> <strong> Ruby Hashes </strong> </br>
+      In Ruby, hashes are a dictionary-like collection of unique keys and their values. They are similar to arrays in that they can hold a collection of information, but instead of using integers as its index, a Ruby hash uses any object type to call the respective assigned hash value. There are two forms of Hashes as shown: </br>
+      grades = { "Jane Doe" => 10, "Jim Doe" => 6 } </br>
+      options = { :font_size => 10, :font_family => "Arial" } </p>
+      <p> <strong> JavaScript Objects </strong> 
+      In JavaScript, objects are similar to variables, but are able to contain many values. Each name:values pair are called properties. JavaScript objects are containers for named values and methods. An example of a JavaScript object is shown below: </br> 
+      var car = {type:"Fiat", model:500, color:"white"}; </p>
+      <p> <strong> Ruby vs. JavaScript </strong> 
+      Hashes, in Ruby, and objects, in JavaScript, are both data structures that are comprised of references to other objects that can be called upon. The biggest difference is that JavaScript does not restrict access to its properties, allowing you to freely edit each property within the object. Ruby on the other hand enforces a certain level of data encapsulation by not providing a simple way to access its internal instance variables. This forms a data encapsulation that makes it harder for you to access or change individual the information inside the data structures. </p>
+    </div>
+  </section>
+</main>
