@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li {
   list-style-type: none;
-  width: 100px;
+  width: 150px;
   float: left;
   text-align: center;
 }
@@ -46,11 +46,10 @@ li a {
   color: white;
   line-height: 50px;
   display: block;
-/*  display: inline-block;*/
   width: 100px;
   position: relative;
   list-style: none;
-  font-family: Times;
+  font-family: andale mono;
   text-decoration: none;
 }
 
