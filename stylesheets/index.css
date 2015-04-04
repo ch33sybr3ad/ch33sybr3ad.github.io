@@ -41,7 +41,7 @@ nav ul li {
   text-align: center;
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: white;
   line-height: 50px;
@@ -52,6 +52,11 @@ li a {
   font-family: andale mono;
   text-decoration: none;
 }
+
+nav ul li a:hover { 
+  color: #000; 
+  background-color: #fff; 
+  } 
 
 html {
 	/**background-image: url(../imgs/desktop2.jpg); <--optional**/
