@@ -1,96 +1,42 @@
-html {
-	background-color: #DFDFDF;
+.hero-unit {
+    background-image:url('http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg');
+    background-color: #EEEEEE;
+    width:100%;
+    height: 500px ;
+  }
+.hero-unit h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding-top: 100px;
+}
+.hero-unit h2 {
+    font-size: 25px;
+    color: #FFFFFF;
 }
 
-h1 {
-  text-align: center;
-  font-family: Tahoma;
-  margin-top: 1em;
+/* Large desktop */
+@media (min-width: 1200px) {}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    .hero-unit { height:300px; } 
+    .hero-unit h1 { padding-top:20px ;}
 }
-
-#one {
-	margin-top: 5em;
-	margin-bottom: 8em;
-	text-align:center;
-	font-family: Tahoma;
-}
-
-#bloglist {
-  font-family: Arial;
-  font-size: 15px;
-  margin-bottom: 3em;
-}
-
-#bloglist li {
-  margin-left: 20em;
-  margin-bottom: 1em;
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .hero-unit { height:300px; }
+    .hero-unit h1{ padding-top:20px; } 
 }
 
 
-/*{
-  display: inline-block;
-  text-align: center;
-  width: 27%;
-  height: 150px;
-  margin: 1em;
-  background-color: black;
-  color: white;
-}*/
 
-nav {
-  background-color: black;
-  height: 50px;
-}
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav ul li {
-  list-style-type: none;
-  width: 150px;
-  float: left;
-  text-align: center;
-}
-
-nav li a {
-  text-decoration: none;
-  color: white;
-  line-height: 50px;
-  display: block;
-  width: 100px;
-  position: relative;
-  list-style: none;
-  font-family: andale mono;
-  text-decoration: none;
-}
-
-nav ul li a:hover { 
-  color: #000; 
-  background-color: #fff; 
-  } 
-
-html {
-	/**background-image: url(../imgs/desktop2.jpg); <--optional**/
-}
-
-footer {
-	margin-top: 10em;
-	margin: 2em;
-	width: 100%;
-	position:relative;
-	bottom:0;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-footer a {
-	margin-left: 30px
-}
-
-h1 {
-  color: black;
-}
+  
