@@ -1,3 +1,5 @@
+/*colors blue: 215AAF; red: 9C3848 orange: FFAD69; yellow:; F5E663 */
+
 .hero-unit {
     background-image:url('http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg');
     background-color: #EEEEEE;
@@ -15,6 +17,10 @@
 .hero-unit h2 {
     font-size: 25px;
     color: #FFFFFF;
+}
+
+.section {
+    height: 500px;
 }
 
 /* Large desktop */
