@@ -1,7 +1,8 @@
 /*colors blue: 215AAF; red: 9C3848 orange: FFAD69; yellow:; F5E663 */
 
 .hero-unit {
-    background-image:url('http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg');
+    background-image:url('../imgs/hero_img.jpg');
+    background-size:cover;
     background-color: #EEEEEE;
     width:100%;
     height: 500px ;
