@@ -24,6 +24,11 @@
     height: 500px;
 }
 
+.footer {
+    text-align: center;
+    width: 100%;
+}
+
 /* Large desktop */
 @media (min-width: 1200px) {}
  
